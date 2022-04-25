@@ -1,0 +1,32 @@
+#img {
+    display: block;
+    width: 200px;
+    height : 200px;
+    margin: calc(((204px * 1.4142) - 204px ) / 2);
+    background: wheat;
+    border: 2px solid;
+}
+#img:hover{
+    animation: portrait 12s;
+}
+@keyframes portrait {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+    }
+
+h1{
+    color:black;
+}
+table {
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    width:100%;
+    }
+
+td { 
+        border-width:1px;
+        border-style:solid; 
+        border-color:black;
+        width:33%;
+}

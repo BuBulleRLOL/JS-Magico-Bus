@@ -1,0 +1,23 @@
+    article {
+        display:inline-block;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding:30px;
+    }
+    section>h4 {
+        color:grey;
+        text-decoration: none;
+    }
+
+    #imgTourne:hover{
+        animation: coeur 12s;
+    }
+    
+    body{
+        background-color: lightgrey;
+    }
+
+    @keyframes coeur {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
